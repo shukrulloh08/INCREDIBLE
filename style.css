@@ -22,6 +22,11 @@ body{
     margin: 0 auto;
 }
 
+.nav-box{
+    width: 1449px;
+    margin: 0 auto;
+}
+
 .div{
     display: flex;
     margin: 0 auto;
@@ -32,41 +37,35 @@ body{
     text-align: center;
     padding-top: 150px;
     background: #2D3E4F; 
-    width: 250px;
-
+    width: 300px;
 }
 
-.div-all{
+.div-img {
     width: 100%;
-    height: 100%;
-    margin: 0 auto;
-}
-
-.div-img{
-    position:absolute;
+    /* height: 100vh; */
+    background-image: url(./img/IMAGE.png);
+    background-repeat: no-repeat;  
+    background-size: 100%;                     
 }
 
 .div-text {
-    height: 800px;
-    width: 1111px;
-    position: relative;
+    height: 657px;
+    width: 1190px;
     opacity: 0;
     font-size: 50px;
     font-weight: 500;
     color: white;
-    line-height: 60px;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
     transition: 1s;
-    background-color: #da0a0a1c;
+    background-color: #da0a0a2d;
 }
 
-.div-text p{
+.div-p{
     width: 500px; 
-    position: relative;
-    left: 25%;
-    top: 270px;
+    margin-left: 26%;
+    padding-top: 250px;
     cursor: pointer;
 }
 
@@ -74,4 +73,91 @@ body{
     opacity: 100%;
     transition: 1s;
 }
+
+.div-left p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.div-left:nth-child(1){
+    height: 44px;
+    width: 122px;
+    margin-left: 35%;
+    margin-right: 55px;
+    border-radius: 4px;
+}
+
+.div-left{
+    height: 44px;
+    width: 122px;
+    padding-top: 8px;
+    border-radius: 4px;
+    margin-top: 23px;
+    border: 2px solid #FFFFFF;
+    transition: .4s;
+}
+
+.div-left:hover{
+    background-color: #CF404D;
+    border: 2px solid #CF404D;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.div-red{
+    display: flex;
+}
+
+.left p:nth-child(1){
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #CF404D;
+}
+
+.left p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    transition: .4s;
+}
+
+.left p:hover{
+    color: #CF404D;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.section-text{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -1px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.section-text:nth-child(2){
+    font-size: 15px;
+    font-weight: 400;
+    color: #737373BD;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
 
