@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-    width: 960px;
+    width: 980px;
     margin: 0 auto;
 }
 
@@ -201,6 +201,47 @@ body{
 
 .section-all{
     display: flex;
+}
+
+.color-red{
+    height: 135px;
+    background: #CF404D;
+    margin-top: 30px;
+    
+    
+}
+
+.color-red .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.class-link p{
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 45px;
+    color: white;
+}
+
+.class-link1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.class-link1{
+    height: 47px;
+    width: 127px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    margin-top: 45px;
+    padding-top: 10px;
+    cursor: pointer;
 }
 
 
