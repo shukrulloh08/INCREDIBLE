@@ -33,11 +33,11 @@ body{
 }
 
 .left{
-    height: 2800px;
+    /* height: 100%; */
     text-align: center;
     padding-top: 150px;
     background: #2D3E4F; 
-    width: 300px;
+    width: 100%;
 }
 
 .div-img {
@@ -256,9 +256,10 @@ body{
 .photo-img{
     margin-bottom: 15px;
     position: relative;
+    
 }
 
-.fa-brands{
+.all{
     width: 215px;
     height: 215px;
     padding-top: 55px;
@@ -271,9 +272,74 @@ body{
     transition: .5s;
 }
 
-.fa-brands:hover{
-    opacity: 100%; 
+.all:hover{
+    opacity: 100%;
+    cursor: pointer; 
 }
+
+
+.white-all{
+    width: 100%;
+    padding-top: 25px;
+    margin-top: 60px;
+    background: #FAFAFA;
+    border-bottom: 2px solid rgba(83, 82, 82, 0.219);
+    border-top: 2px solid rgba(83, 82, 82, 0.219);
+}
+
+.white-input-all{
+    display: flex;
+    justify-content: center;
+}
+
+.white-input input{
+    height: 45px;
+    width: 271px;
+    outline: none;
+    border: none;
+    margin-left: 40px;
+    padding: 25px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.white-big input{
+    padding-bottom: 110px;
+    width: 583px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    margin-bottom: 50px;
+    margin-left: 325px;
+}
+
+.icons{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 2200px;
+}
+
+.icon{
+    margin-left: 10px;
+}
+
+.div-reda{
+    height: 45px;
+    width: 583px;
+    background: #CF404D;
+    border-radius: 4px;
+    margin-left:325px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.poka{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 
 
 
