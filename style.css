@@ -23,53 +23,64 @@ body{
 }
 
 .nav-box{
-    width: 1449px;
+    width: 1149px;
     margin: 0 auto;
 }
 
 .div{
+    width: 100%;
     display: flex;
     margin: 0 auto;
 }
 
 .left{
-    /* height: 100%; */
     text-align: center;
     padding-top: 150px;
     background: #2D3E4F; 
-    width: 100%;
+    width: 30%;
+}
+
+.right{
+    width: 80%;
 }
 
 .div-img {
-    width: 100%;
-    /* height: 100vh; */
     background-image: url(./img/IMAGE.png);
     background-repeat: no-repeat;  
-    background-size: 100%;                     
+    background-size: 100%;                    
 }
 
-.div-text {
+.div-all {
     height: 657px;
-    width: 1190px;
+    width: 100%;
     opacity: 0;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 500;
     color: white;
     letter-spacing: 1px;
     text-transform: uppercase;
-    text-align: center;
     transition: 1s;
     background-color: #da0a0a2d;
 }
 
+.div-text{
+    width: 360px;
+    margin-left: 25%;
+   
+}
+
+.div-p p{
+    width: 400px;
+    text-align: center;
+}
+
 .div-p{
-    width: 500px; 
-    margin-left: 26%;
+    width: 100%; 
     padding-top: 250px;
     cursor: pointer;
 }
 
-.div-text:hover{
+.div-all:hover{
     opacity: 100%;
     transition: 1s;
 }
@@ -85,7 +96,7 @@ body{
 .div-left:nth-child(1){
     height: 44px;
     width: 122px;
-    margin-left: 35%;
+    margin-left: 14%;
     margin-right: 55px;
     border-radius: 4px;
 }
@@ -161,8 +172,8 @@ body{
 }
 
 .section-icon p{
-    width: 250px;
-    font-size: 16px;
+    width: 240px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     text-align: left;
@@ -180,14 +191,14 @@ body{
 }
 
 .section-icon img{
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-bottom: 25px;
 }
 
 .section-icon b{
     display: block;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 5px;
     font-weight: 500;
     line-height: 30px;
@@ -200,7 +211,10 @@ body{
 }
 
 .section-all{
+    width: 900px;
     display: flex;
+    margin: 30px;
+    justify-content: space-between;
 }
 
 .color-red{
@@ -214,11 +228,11 @@ body{
 
 .color-red .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .class-link p{
-    font-size: 31px;
+    font-size: 25px;
     font-weight: 400;
     line-height: 36px;
     text-align: left;
@@ -229,8 +243,7 @@ body{
 .class-link1 p{
     font-size: 16px;
     font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0em;
+    line-height: 21px;   
     text-align: center;
 }
 
@@ -282,6 +295,7 @@ body{
     width: 100%;
     padding-top: 25px;
     margin-top: 60px;
+    text-align: center;
     background: #FAFAFA;
     border-bottom: 2px solid rgba(83, 82, 82, 0.219);
     border-top: 2px solid rgba(83, 82, 82, 0.219);
@@ -303,21 +317,26 @@ body{
     margin-bottom: 30px;
 }
 
-.white-big input{
+.white-big{
+    width: 980px;
+}
+
+.white-big textarea{
     padding-bottom: 110px;
-    width: 583px;
+    width: 573px;
     border-radius: 3px;
     outline: none;
     border: none;
+    resize: none;
     padding: 15px;
     margin-bottom: 50px;
-    margin-left: 325px;
+    margin-left: 45px;
 }
 
 .icons{
     display: flex;
-    margin-left: 30px;
-    margin-top: 2200px;
+    justify-content: center;
+    margin-top: 2330px;
 }
 
 .icon{
@@ -329,9 +348,16 @@ body{
     width: 583px;
     background: #CF404D;
     border-radius: 4px;
-    margin-left:325px;
+    margin-left:221px;
     margin-bottom: 50px;
     margin-top: 40px;
+    transition: .5s;
+}
+
+.div-reda:hover{
+    transform: translateY(-7px);
+    transition: .5s;
+    opacity: .9;
 }
 
 .poka{
