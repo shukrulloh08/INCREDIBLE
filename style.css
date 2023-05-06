@@ -343,6 +343,14 @@ body{
     margin-left: 10px;
 }
 
+.color{
+    color: #ffffff;
+}
+
+.color:hover{
+    color: #047ef8;
+}
+
 .div-reda{
     height: 45px;
     width: 583px;
